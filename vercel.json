@@ -1,8 +1,12 @@
 {
   "version": 2,
   "functions": {
-    "api/cron.js": { "runtime": "nodejs18.x" },
-    "api/script.py": { "runtime": "python3.11" }
+    "api/cron.js": {
+      "runtime": "vercel-nodejs@20"
+    },
+    "api/script.py": {
+      "runtime": "vercel-python@3.9"
+    }
   },
   "crons": [
     {
